@@ -1,4 +1,4 @@
-specVersion: 0.0.2
+specVersion: 0.0.4
 description: Indexing all Candle Block data
 repository: https://github.com/blocklytics/ethereum-blocks
 schema:
@@ -12,7 +12,7 @@ dataSources:
       abi: ConverterRegistryContract
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.5
       language: wasm/assemblyscript
       entities:
         - ConverterAddition
